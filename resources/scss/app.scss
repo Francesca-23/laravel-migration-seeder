@@ -1,1 +1,10 @@
 @import '~bootstrap/scss/bootstrap';
+
+.card {
+    width: calc(100% / 4 - 2rem);
+    margin: 1rem;
+
+    p {
+        margin-bottom: 0.6rem;
+    }
+}
